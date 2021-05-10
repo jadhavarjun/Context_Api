@@ -6,6 +6,7 @@ export default function Login() {
     
     return (
         <>
+
             <input
                 type="text"
                 placeholder="UserName"
@@ -13,9 +14,11 @@ export default function Login() {
                     setUserName(event.target.value);
                 }}
             />
-                
+                <br/>
+                <br/>
             <input type="text" placeholder="Password" />
-            
+            <br/>
+            <br/>
             <button
                 onClick={() => {
                     setShowProfile(true);
